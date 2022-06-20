@@ -1,8 +1,8 @@
 /*
  * @Author: xiafeng.luo xiafeng.luo@hongjingdrive.com
  * @Date: 2022-06-07 17:20:10
- * @LastEditors: xiafeng.luo xiafeng.luo@hongjingdrive.com
- * @LastEditTime: 2022-06-15 17:25:38
+ * @LastEditors: luoxiafeng luoxiafeng1990@163.com
+ * @LastEditTime: 2022-06-16 14:31:15
  * @FilePath: /linux-5.3.7/drivers/examples/hello_world/hello.c
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -14,12 +14,11 @@
 #include <linux/kern_levels.h>
 #include <linux/stddef.h>
 #include <linux/errno.h>
+#include <linux/list.h>
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("xiafeng.luo");
 MODULE_DESCRIPTION("This is just a hello module!\n");
-
-#define container_calc    \
 
 
 typedef struct imageData {

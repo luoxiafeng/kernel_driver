@@ -1,0 +1,1 @@
+cmd_drivers/examples/data_struct/built-in.a := rm -f drivers/examples/data_struct/built-in.a; /home/summer/hb_sdk/prebuilts/host/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-ar rcSTPD drivers/examples/data_struct/built-in.a drivers/examples/data_struct/hlist/built-in.a

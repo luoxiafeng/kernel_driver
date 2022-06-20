@@ -1,1 +1,1 @@
-cmd_drivers/examples/built-in.a := rm -f drivers/examples/built-in.a; /home/summer/hb_sdk/prebuilts/host/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-ar rcSTPD drivers/examples/built-in.a drivers/examples/hello_world/built-in.a
+cmd_drivers/examples/built-in.a := rm -f drivers/examples/built-in.a; /home/summer/hb_sdk/prebuilts/host/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-ar rcSTPD drivers/examples/built-in.a drivers/examples/hello_world/built-in.a drivers/examples/data_struct/built-in.a
